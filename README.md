@@ -28,7 +28,7 @@ Declare your new grid componets:
 ```js  
 components: Object.assign({
     // your other components
-    }, grid,
+    }, grid),
 ```
 
 Now you can use `<g-row>` and `<g-col>`!
