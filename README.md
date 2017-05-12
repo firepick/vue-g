@@ -1,7 +1,5 @@
 
-### Row of Columns
-
-<img src="https://raw.githubusercontent.com/firepick/vue-g-row-col/master/images/row-of-cols.png">
+<img src="https://raw.githubusercontent.com/firepick/vue-g-row-col/master/images/row-of-cols.png" height=200px>
 
 ```HTML
 <g-row>
@@ -26,9 +24,7 @@
 </g-row>
 ```
 
-### Rows of Columns of Rows</h3>
-
-<img src="https://raw.githubusercontent.com/firepick/vue-g-row-col/master/images/rows-cols-rows.png">
+<img src="https://raw.githubusercontent.com/firepick/vue-g-row-col/master/images/rows-cols-rows.png" height=300px>
 
 ```HTML
 <g-row><g-header>City</g-header>
