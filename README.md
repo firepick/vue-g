@@ -1,12 +1,38 @@
 
 # Install
 
+### To play with a grid
+
 ```bash
-npm install vue-g-row-col
+git clone https://github.com/firepick/vue-g-row-col.git
+cd vue-g-row-col
+npm install 
 npm run dev
 ```
 
 Launch browser http://localhost:4000/
+
+### To use grid components in your own application
+
+Install new package dependency:
+```bash
+npm install --save vue-g-row-col
+```
+
+Import the grid Vue component:
+```js
+const grid = require("vue-g-row-col");
+```
+
+Declare your new grid componets:
+```js  
+components: Object.assign({
+    // your other components
+    }, grid,
+```
+
+Now you can use `<g-row>` and `<g-col>`!
+
 
 # Examples
 

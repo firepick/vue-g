@@ -2,7 +2,7 @@
   "name": "vue-g-row-col",
   "version": "0.1.0",
   "description": "Create responsive nested layouts with <g-row> and <g-col> Vue components.",
-  "main": "index.js",
+  "main": "src/grid.vue",
   "directories": {
     "src": "src"
   },
