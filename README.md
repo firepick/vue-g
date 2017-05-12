@@ -3,6 +3,7 @@
 
 ### To play with a grid
 
+Get the source code
 ```bash
 git clone https://github.com/firepick/vue-g-row-col.git
 cd vue-g-row-col
