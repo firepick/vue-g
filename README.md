@@ -1,4 +1,15 @@
 
+# Install
+
+```bash
+npm install vue-g-row-col
+npm run dev
+```
+
+Launch browser http://localhost:4000/
+
+# Examples
+
 <img src="https://raw.githubusercontent.com/firepick/vue-g-row-col/master/images/row-of-cols.png" height=200px>
 
 ```HTML

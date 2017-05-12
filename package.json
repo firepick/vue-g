@@ -1,7 +1,7 @@
 {
   "name": "vue-g-row-col",
   "version": "0.1.0",
-  "description": "Vue flexbox layout uses <g-row> and <g-col> for nestable layouts of <g-icon>, <g-text>, <g-number>, <g-label> and <g-header> content",
+  "description": "Create nested layouts with <g-row> and <g-col> Vue components.",
   "main": "index.js",
   "directories": {
     "src": "src"
