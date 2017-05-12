@@ -1,0 +1,63 @@
+{
+  "name": "vue-g-row-col",
+  "version": "0.1.0",
+  "description": "Vue flexbox layout uses <g-row> and <g-col> for nestable layouts of <g-icon>, <g-text>, <g-number>, <g-label> and <g-header> content",
+  "main": "index.js",
+  "directories": {
+    "src": "src"
+  },
+  "dependencies": {
+    "vue": "^2.3.2",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.2.0",
+    "css-loader": "^0.28.0",
+    "mocha": "^3.2.0",
+    "should": "^11.2.0",
+    "supertest": "^3.0.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-latest": "^6.0.0",
+    "cross-env": "^3.0.0",
+    "vue-loader": "^11.1.4",
+    "vue-template-compiler": "^2.2.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.2.0"
+  },
+  "scripts": {
+    "build": "bash scripts/build",
+    "build:vue": "npm run build:vue-dev && npm run build:vue-service",
+    "build:vue-dev": "cross-env NODE_ENV=production webpack --config cfg/webpack.dev.js --progress --hide-modules",
+    "build:vue-service": "cross-env NODE_ENV=production webpack --config cfg/webpack.service.js --progress --hide-modules",
+    "clean": "rm -f *.log*; rimraf dist",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config webpack.app.js --open --hot",
+    "start": "scripts/server.js ",
+    "test": "npm run test:node",
+    "test:node": "mocha -w -R min --inline-diffs",
+    "test:detail": "mocha -w --inline-diffs",
+    "z": "echo z"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firepick/vue-g.git"
+  },
+  "bin": {},
+  "keywords": [
+    "Vue",
+    "g-row",
+    "g-col",
+    "g-text",
+    "g-number",
+    "g-icon",
+    "g-label",
+    "g-header",
+    "Layout"
+  ],
+  "author": "Karl Lew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firepick/vue-g/issues"
+  },
+  "homepage": "https://github.com/firepick/vue-g"
+}
